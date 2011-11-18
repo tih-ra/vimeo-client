@@ -1,0 +1,16 @@
+{
+  "author": "Andriy Bazyuta <andriy.bazyuta@gmail.com> (https://github.com/tih-ra/)",
+  "name": "vimeo-client",
+  "description": "Client for vimeo Api",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tih-ra/vimeo-client.git"
+  },
+  "main": "video-client",
+  "engines": {
+    "node": "~0.4.11"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
