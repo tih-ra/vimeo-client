@@ -11,6 +11,9 @@
   "engines": {
     "node": "~0.4.11"
   },
-  "dependencies": {},
+  "dependencies": {
+    "oauth": "",
+    "colorlog": ""
+  },
   "devDependencies": {}
 }
