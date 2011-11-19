@@ -3,6 +3,7 @@
   "name": "vimeo-client",
   "description": "Client for vimeo api",
   "version": "0.1.5",
+  "keywords": ["api", "vimeo", "oauth"],
   "repository": {
     "type": "git",
     "url": "git://github.com/tih-ra/vimeo-client.git"
