@@ -6,7 +6,7 @@ The library works with all methods provided by Vimeo API and allows you to authe
 You will first need to sign up for a [developer application](http://vimeo.com/api/applications) to get the consumer key and secret.
 
 ## Installation
-    $ npm install everyauth
+    $ npm install vimeo-client
 
 ## Quick Start
 You can use Express or Connect with vimeo-client
