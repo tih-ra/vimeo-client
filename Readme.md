@@ -12,6 +12,7 @@ You will first need to sign up for a [developer application](http://vimeo.com/ap
 You can use Express or Connect with vimeo-client
 
 1. **Add the vimeo-client middleware to Express**
+
     ```javascript
     var vimeo = require('vimeo-client');
     
@@ -35,6 +36,7 @@ You can use Express or Connect with vimeo-client
     });
 	
 2. **Use vimeo API**
+
     ```javascript
     app.get('/hello', function(req, res){
 	
