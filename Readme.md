@@ -20,31 +20,30 @@ You can use Express or Connect with vimeo-client
     app.configure(function(){
 	  
 	  // Some your code
-	
-	  app.use(express.bodyParser());
-	  app.use(express.cookieParser());
-	  app.use(express.session({ secret: 'secret'}));
-	  app.use(vimeo.middleware({
-		  consumerKey: 'YOUR CONSUMER KEY',
-		  consumerSecret: "YOUR CONSUMER SECRET",
-		  baseURL: 'http://localhost:3000',
-		  logging: 'debug',  //Set logging: false to disable console logs
-		  afterLogin: '/helloVimeo',
-		  afterLogout: '/goodbyeVimeo',
-		  permission: 'write' // Vimeo API provide 3 level of permissions 'read, write, delete'
-		}));
-	});
+    app.use(express.bodyParser());
+    app.use(express.cookieParser());
+    app.use(express.session({ secret: 'secret'}));
+    app.use(vimeo.middleware({
+      consumerKey: 'YOUR CONSUMER KEY',
+      consumerSecret: "YOUR CONSUMER SECRET",
+      baseURL: 'http://localhost:3000',
+      logging: 'debug',  //Set logging: false to disable console logs
+      afterLogin: '/helloVimeo',
+      afterLogout: '/goodbyeVimeo',
+      permission: 'write' // Vimeo API provide 3 level of permissions 'read, write, delete'
+      }));
+    });
 	
 2. **Use vimeo API**
     ```javascript
     app.get('/hello', function(req, res){
 	
-	 	vimeo.post({method: "vimeo.albums.create", description: "My Music Videos", title: "My Music Videos", video_id: "29020150", videos: "15877632, 29020150, 
+      vimeo.post({method: "vimeo.albums.create", description: "My Music Videos", title: "My Music Videos", video_id: "29020150", videos: "15877632, 29020150, 
 	16097839"}, req, function(err, data, response) {
 		     res.send(data);
 		 });
 		 
-	});
+    });
 
 **About options**
  - `method:` - Some Vimeo API method, a description of all methods can be found on [Vimeo API Method list](http://vimeo.com/api/docs/methods)
