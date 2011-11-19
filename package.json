@@ -1,8 +1,8 @@
 {
   "author": "Andriy Bazyuta <andriy.bazyuta@gmail.com> (https://github.com/tih-ra/)",
   "name": "vimeo-client",
-  "description": "Client for vimeo Api",
-  "version": "0.0.1",
+  "description": "Client for vimeo api",
+  "version": "0.1.5",
   "repository": {
     "type": "git",
     "url": "git://github.com/tih-ra/vimeo-client.git"
