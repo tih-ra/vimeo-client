@@ -40,10 +40,16 @@ You can use Express or Connect with vimeo-client
     ```javascript
     app.get('/hello', function(req, res){
 	
-      vimeo.post({method: "vimeo.albums.create", description: "My Music Videos", title: "My Music Videos", video_id: "29020150", videos: "15877632, 29020150, 
-	16097839"}, req, function(err, data, response) {
-		     res.send(data);
-		 });
+      vimeo.post({ 
+	               method: "vimeo.albums.create", 
+                   description: "My Music Videos", 
+                   title: "My Music Videos", 
+                   video_id: "29020150", 
+                   videos: "15877632, 29020150, 16097839"
+
+                 }, req, function(err, data, response) {
+		             res.send(data);
+		         });
 		 
     });
 
