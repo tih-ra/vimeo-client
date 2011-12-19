@@ -13,7 +13,7 @@
     "node": "~0.4.11"
   },
   "dependencies": {
-    "oauth": "",
+    "oauth": "~0.9.5",
     "colorlog": ""
   },
   "devDependencies": {}
