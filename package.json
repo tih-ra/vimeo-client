@@ -2,7 +2,7 @@
   "author": "Andriy Bazyuta <andriy.bazyuta@gmail.com> (https://github.com/tih-ra/)",
   "name": "vimeo-client",
   "description": "Client for vimeo api",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "keywords": ["api", "vimeo", "oauth"],
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   },
   "main": "video-client",
   "engines": {
-    "node": ">= 0.4.1 < 0.7.0"
+    "node": ">= 0.4.1 < 0.8.5"
   },
   "dependencies": {
     "oauth": "~0.9.5",
